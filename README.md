@@ -15,6 +15,7 @@ that focuses on readability that applies to all programming languages.
 | field                | snake_case |
 | method               | snake_case |
 | method argument      | _snake_case |
+| instance             | Snake_case |
 
 ### examples
 examples are written in c++
@@ -33,5 +34,11 @@ class Some_class_name {
   void set_var(int _some_var) {
     some_var = _some_var
   }
+}
+
+int main() {
+  int var = 1;
+  Some_class_name Some;
+  Some.set_ver(var);
 }
 ```
