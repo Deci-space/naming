@@ -9,7 +9,7 @@ that focuses on readability that applies to all programming languages.
 |:---------------------|:-----------|
 | variables            | snake_case |
 | constructor          | snake_case |
-| function             | Snake_case |
+| function             | snake_case |
 | argument             | snake_case |
 | claass               | Snake_case | 
 | field                | snake_case |
@@ -22,7 +22,7 @@ examples are written in c++
 ```cpp
 const int some_const = 1;
 
-int Add_some_nummber(int some_var) {
+int dd_some_nummber(int some_var) {
   return some_var + some_const; 
 }
 ```
